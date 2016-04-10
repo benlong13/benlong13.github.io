@@ -1,0 +1,155 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "futura-pt";
+  font-size: 30px;
+}
+section.module.container {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-family: "futura-pt";
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+  font-family: "futura-pt";
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.content.table{
+  padding: 40px;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax-1 {
+  background-image: url("../img/demo/_small/13.jpg");
+ 
+}section.module.parallax-2 {
+  background-image: url("../img/demo/_small/1.png");
+
+ } 
+section.module.parallax-2 p{  
+  text-align: center;
+  display: block;
+  line-height: 600px;
+  font-weight: 700;
+  position: relative;
+  font-size: 64px;
+  font-style: normal;
+  z-index: inherit;
+  color: #fff;
+  font-variant: bold;
+  font-family: arial, "futura-pt";
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/4.jpg");
+}
+
+section.module.parallax-3 p {  
+  text-align: center;
+  display: block;
+  line-height: 600px;
+  font-weight: 700;
+  position: relative;
+  font-size: 64px;
+  font-style: normal;
+  z-index: inherit;
+  color: #fff;
+  font-variant: bold;
+  font-family: arial, "futura-pt";
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 17px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+
+.index-collection {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: arial, "futura-pt";
+  display: inline-block;
+  font-weight: 600;
+  z-index: inherit;
+  top: 50px;
+  line-height: 1em;
+  
+  cursor: pointer;
+  font-style: normal;
+  margin: 0 0 0 20px;
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: arial, "futura-pt";
+  position: center;
+}
+a#title  {
+  font-size: 36px;
+  margin: 20px;
+  font-weight: bold;
+  line-height: 1.1em;
+  float: left;
+  color: #ffffff;
+  
+}
+
+
+nav ul {
+  padding: 30 0px;
+  text-decoration: none;
+  border: none;
+
+}
+
+
+
+div a .title {
+  color: #000000;
+}
+
+a:link {
+  text-decoration: none;
+  border: none;
+  outline: none;
+ }
+ a#title:hover {
+  color: #818181;
+ }
+
+
+
+
+
+
+

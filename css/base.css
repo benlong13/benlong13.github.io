@@ -1,0 +1,214 @@
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, , section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  
+}
+
+/* ============================================================
+  BOX SIZING & CLEARFIX
+============================================================ */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ============================================================
+  HTML & BODY
+============================================================ */
+body {
+  background-color: #171717;
+  font-family: "futura-pt";
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============================================================
+  INFO BAR
+============================================================ */
+.info-bar {
+  padding: 5px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.info-bar a.icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/core/icons-dark.png");
+  background-image: url("../img/core/icons-dark.svg"), none;
+  opacity: 0.3;
+}
+.info-bar .cmn-tut {
+  background-position: 0 0;
+}
+.info-bar .cmn-prev {
+  background-position: -30px 0;
+}
+.info-bar .cmn-next {
+  background-position: -60px 0;
+}
+.info-bar .cmn-download {
+  background-position: -90px 0;
+}
+.info-bar .cmn-archive {
+  background-position: -120px 0;
+}
+.info-bar a.icon[data-title]:after {
+  opacity: 1;
+}
+.info-bar a.icon[data-title]:hover:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 20px;
+  content: attr(data-title);
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  font-family: "futura-pt";
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* site title */
+.site-title {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.site-title h1 {
+  color: #fff;
+}
+
+/* ============================================================
+  FOOTER
+============================================================ */
+footer {
+  padding: 20px 0;
+}
+footer .asides {
+  margin-bottom: 20px;
+}
+footer aside {
+  margin-bottom: 10px;
+}
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer nav li {
+  display: inline-block;
+}
+footer nav a {
+  display: block;
+  margin: 0 5px;
+  color: #fff;
+}
+footer .logo {
+  text-align: center;
+}
+
+footer .copyright {
+  text-align: center;
+}
+footer .copyright small {
+  color: #fff;
+  font-size: 12px;
+}
+footer .copyright a {
+  color: #818181;
+}
+
+@media all and (min-width: 600px) {
+  footer aside {
+    margin-bottom: 0;
+    float: left;
+    width: 33.3333%;
+  }
+  footer nav ul {
+    text-align: left;
+  }
+  footer nav li {
+    display: block;
+  }
+  footer nav a {
+    display: inline-block;
+    margin: 0;
+  }
+  footer .logo {
+    text-align: right;
+  }
+}
+
+/* ============================================================
+  TEXT LEVEL SEMANTICS
+============================================================ */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #818181;
+  text-decoration: none;
+}
