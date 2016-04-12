@@ -1,33 +1,29 @@
 /* ============================================================
   SECTIONS
 ============================================================ */
+@font-face {
+  font-family: "futura-pt";
+  src: url("../futurapt/futuraptbold.otf") format("opentype");
+}
 
-section.module:last-child {
-  margin-bottom: 0;
-}
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: "futura-pt";
-  font-size: 30px;
-}
+
 section.module.container {
-  margin-bottom: 40px;
+  margin-bottom: 40px 0;
   font-size: 16px;
-  font-family: "futura-pt";
+  font-family: arial, "futura-pt";
   font-weight: 300;
 }
-section.module p:last-child {
+section.module {
   margin-bottom: 0;
   font-family: "futura-pt";
+  font-size: 18px;
 }
 section.module.content {
-  padding: 40px 0;
+  padding: 120px 0 120px;
 }
-section.module.content.table{
-  padding: 40px;
-}
+
 section.module.parallax {
-  height: 600px;
+  height: 1000px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -37,16 +33,27 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax-1 {
-  background-image: url("/img/13.jpg");
+  background-image: url("../img/13.jpg");
  
 }section.module.parallax-2 {
-  background-image: url("/img/demo/_small/1.png");
+  background-image: url("../img/1.jpg");
 
  } 
+
+ section.module.parallax-academic {
+background-image: url("../img/2.jpg");
+ }
+
+ section.module.parallax-personal {
+  background-color: #97a6b4;
+  height: 400px;
+ }
+
+
 section.module.parallax-2 p{  
   text-align: center;
   display: block;
-  line-height: 600px;
+  line-height: 1000px;
   font-weight: 700;
   position: relative;
   font-size: 64px;
@@ -54,16 +61,16 @@ section.module.parallax-2 p{
   z-index: inherit;
   color: #fff;
   font-variant: bold;
-  font-family: arial, "futura-pt";
+  font-family: "futura-pt";
 }
 section.module.parallax-3 {
-  background-image: url("/img/4.jpg");
+  background-image: url("../img/4.jpg");
 }
 
 section.module.parallax-3 p {  
   text-align: center;
   display: block;
-  line-height: 600px;
+  line-height: 1000px;
   font-weight: 700;
   position: relative;
   font-size: 64px;
@@ -71,68 +78,56 @@ section.module.parallax-3 p {
   z-index: inherit;
   color: #fff;
   font-variant: bold;
-  font-family: arial, "futura-pt";
+  font-family: "futura-pt";
 }
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 17px;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
+section.academic {
+  text-align: center;
+  display: block;
+  line-height: 700px;
+  font-weight: 700;
+  position: relative;
+  font-size: 64px;
+  font-style: normal;
+  z-index: inherit;
+  color: #fff;
+  font-variant: bold;
+  font-family: "futura-pt";
 }
 
-
-.index-collection {
+.box1 {
   color: #000;
   text-transform: uppercase;
   font-size: 17px;
-  font-family: arial, "futura-pt";
+  font-family: "futura-pt";
   display: inline-block;
-  font-weight: 600;
-  z-index: inherit;
-  top: 50px;
-  line-height: 1em;
+  font-weight: bold;
+  line-height: 3em;
+  margin: 30px;
+  float: right;
   
-  cursor: pointer;
-  font-style: normal;
-  margin: 0 0 0 20px;
 }
 
 a {
   color: #fff;
-  text-transform: uppercase;
-  font-family: arial, "futura-pt";
+  font-family: "futura-pt";
   position: center;
 }
 a#title  {
   font-size: 36px;
-  margin: 20px;
+  margin: 30px;
   font-weight: bold;
-  line-height: 1.1em;
+  line-height: 2.5em;
   float: left;
   color: #ffffff;
-  
+  text-transform: uppercase;
 }
-
 
 nav ul {
   padding: 30 0px;
   text-decoration: none;
   border: none;
-
 }
-
-
 
 div a .title {
   color: #000000;
@@ -146,10 +141,3 @@ a:link {
  a#title:hover {
   color: #818181;
  }
-
-
-
-
-
-
-
