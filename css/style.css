@@ -13,9 +13,7 @@
 .container p{
   font-family: "futura-ptlt";
   font-weight:  500;
-
 }
-
 
 section.module.container {
   margin-bottom: 40px 0;
@@ -111,8 +109,7 @@ section.academic {
   font-size: 17px;
   font-family: "futura-pt";
   display: inline-block;
-  
-  line-height: 3em;
+  line-height: 2.5em;
   margin: 30px;
   float: right;
   
@@ -122,6 +119,10 @@ a {
   color: #fff;
   font-family:  "futura-pt";
   position: center;
+}
+
+.japanese a {
+  color: #000;
 }
 a#title  {
   font-size: 36px;
@@ -156,6 +157,13 @@ a:link {
  a:hover {
   color: #e6f2ff;
  }
+
+ .container h1 {
+  font-family: "futura-pt";
+  font-size: 38px;
+ }
+
+ 
 
 
 
