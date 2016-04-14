@@ -42,8 +42,9 @@ section.module.parallax {
 }
 section.module.parallax-1 {
   background-image: url("../img/13.jpg");
+}
  
-}section.module.parallax-2 {
+section.module.parallax-2 {
   background-image: url("../img/1.jpg");
 
  } 
@@ -53,8 +54,9 @@ background-image: url("../img/2.jpg");
  }
 
  section.module.parallax-personal {
-  background-color: #97a6b4;
-  height: 400px;
+  /*background-color: #97a6b4;*/
+  background-image: url("../img/5.jpg");
+  /*height: 400px;*/
  }
 
 
@@ -99,7 +101,19 @@ section.academic {
   font-style: normal;
   z-index: inherit;
   color: #fff;
-  
+  font-family: "futura-pt";
+}
+
+section.personal {
+  text-align: center;
+  display: block;
+  line-height: 700px;
+  font-weight: 700;
+  position: relative;
+  font-size: 64px;
+  font-style: normal;
+  z-index: inherit;
+  color: #fff;
   font-family: "futura-pt";
 }
 
@@ -163,6 +177,9 @@ a:link {
   font-size: 38px;
  }
 
+a.regular{
+  font-family: "futura-ptlt";
+}
  
 
 
